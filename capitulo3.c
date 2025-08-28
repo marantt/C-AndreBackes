@@ -311,11 +311,21 @@ pelos dígitos invertidos do número lido.
 #ifdef ex15
 
     int main(){
-        int a;
-
-        printf("Digite um numero inteiro de tres digitos: ");
+        int a, ctn, dzn, unid;
+        
+        do{
+        printf("Digite um numero inteiro de tres digitos: ");   
         scanf("%d", &a);
+        if(a > 999 || a < 100)
+        printf("O numero digitado e invalido.\n");
+        }while(a > 999 || a < 100);
 
+        ctn = a/100;
+        dzn = (a%100)/10;
+        unid = (a%100)%10;
+
+        printf("O inverso do numero digitado e: %d%d%d.\n", unid, dzn, ctn);
+        return 0;
 
     }
 
