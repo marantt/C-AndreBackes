@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define ex15
+#define ex2
 
 /*
-1) Escreva um programa que escreva as mensagens 'Inicio do programa' e 'Fim' na tela, uma em cada linha, usando apenas um
+1 - Escreva um programa que escreva as mensagens 'Inicio do programa' e 'Fim' na tela, uma em cada linha, usando apenas um
 printf.
-*/
+*/ 
 
 #ifdef ex1
 
@@ -17,13 +17,13 @@ int main () {
 #endif
 
 /*
-2) Escreva um programa que leia um numero inteiro e depois o imprima
+2 - Escreva um programa que leia um numero inteiro e depois o imprima
 */
 
 #ifdef ex2
 
 int main() {
-    short int number;
+    int number;
     scanf("%d", &number);
     printf("O numero e: %d", number);
     return 0;
@@ -62,7 +62,7 @@ int main () {
 #endif // ex4
 
 /*
-5) Faça um programa que leia um valor do tipo float e depois o imprima usando o operador “%d”. Veja o que aconteceu.
+5) Faï¿½a um programa que leia um valor do tipo float e depois o imprima usando o operador ï¿½%dï¿½. Veja o que aconteceu.
 */
 
 #ifdef ex5
@@ -77,7 +77,7 @@ int main () {
 #endif // ex5
 
 /*
-6) Faça um programa que leia um valor do tipo double e depois o imprima na forma de notação científica.
+6) Faï¿½a um programa que leia um valor do tipo double e depois o imprima na forma de notaï¿½ï¿½o cientï¿½fica.
 */
 
 #ifdef ex6
@@ -107,7 +107,7 @@ int main () {
 #endif // ex7
 
 /*
-8) Faça um programa que leia dois números Ointeiros e depois os imprima na ordem inversa em que eles foram lidos.
+8) Faï¿½a um programa que leia dois nï¿½meros Ointeiros e depois os imprima na ordem inversa em que eles foram lidos.
 */
 
 #ifdef ex8
@@ -123,7 +123,7 @@ int main () {
 #endif // ex8
 
 /*
-9) Faça um programa que leia dois valores do tipo float. Use um único comando de leitura para isso. Em seguida, imprima os valores lidos na ordem
+9) Faï¿½a um programa que leia dois valores do tipo float. Use um ï¿½nico comando de leitura para isso. Em seguida, imprima os valores lidos na ordem
 inversa em que eles foram lidos.
 */
 
@@ -139,7 +139,7 @@ int main () {
 #endif // ex9
 
 /*
-10) Elabore um programa que solicite ao usuário entrar com o valor do dia, mês e ano (inteiros).
+10) Elabore um programa que solicite ao usuï¿½rio entrar com o valor do dia, mï¿½s e ano (inteiros).
 Em seguida, imprima os valores lidos separados por uma barra (\).
 */
 
@@ -189,8 +189,8 @@ int main () {
 #endif // ex12
 
 /*
-13) Faça um programa que leia um caractere do tipo char e depois o imprima entre aspas duplas. Assim, se o caractere lido for a letra A, deverá
-ser impresso “A”.
+13) Faï¿½a um programa que leia um caractere do tipo char e depois o imprima entre aspas duplas. Assim, se o caractere lido for a letra A, deverï¿½
+ser impresso ï¿½Aï¿½.
 */
 
 #ifdef ex13
@@ -205,8 +205,8 @@ int main () {
 #endif // ex13
 
 /*
-14) Faça um programa que leia três caracteres do tipo char e depois os imprima um em cada linha.
-Use um único comando printf() para isso.
+14) Faï¿½a um programa que leia trï¿½s caracteres do tipo char e depois os imprima um em cada linha.
+Use um ï¿½nico comando printf() para isso.
 */
 
 #ifdef ex14
@@ -226,8 +226,8 @@ int main () {
 #endif // ex14
 
 /*
-15) Escreva um programa que leia três variáveis: char, int e float. Em seguida, imprima-as de três maneiras diferentes: separadas por espaços, por
-uma tabulação horizontal e uma em cada linha. Use um único comando printf() para cada operação de escrita das três variáveis.
+15) Escreva um programa que leia trï¿½s variï¿½veis: char, int e float. Em seguida, imprima-as de trï¿½s maneiras diferentes: separadas por espaï¿½os, por
+uma tabulaï¿½ï¿½o horizontal e uma em cada linha. Use um ï¿½nico comando printf() para cada operaï¿½ï¿½o de escrita das trï¿½s variï¿½veis.
 */
 
 #ifdef ex15
